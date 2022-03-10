@@ -29,7 +29,7 @@ services:
       environment:
         - POSTGRES_USER=admin
         - POSTGRES_PASSWORD=dbPassword
-        - POSTGRES_DB=dbTODO
+        - POSTGRES_DB=todo
       volumes:
         - postgres_data:/var/lib/postgresql/data
 networks:
