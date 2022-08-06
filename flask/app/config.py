@@ -1,4 +1,4 @@
-DEV_DB = 'sqlite:///todo.db'
+DEV_DB = 'sqlite:///task.db'
 
 pg_user = 'admin'
 pg_pass = 'dbPassword'
