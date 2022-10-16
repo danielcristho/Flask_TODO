@@ -43,5 +43,5 @@ def update(id):
         except:
             return 'Encountered a problem updating your task!!'    
     else:
-         task = Todo.query.get_or_404(id)
-         return render_template('updates.html', task = task)   
+        task = Todo.query.get_or_404(id)
+        return render_template('updates.html', task = task)   
