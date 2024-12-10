@@ -4,7 +4,7 @@ from app.config import DEV_DB, PROD_DB
 import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = DEV_DB
+app.config['SQLALCHEMY_DATABASE_URI'] = PROD_DB
 
 db = SQLAlchemy(app)
 
